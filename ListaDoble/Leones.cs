@@ -19,7 +19,7 @@ namespace ListaDoble
 
         public override string ToString()
         {
-            return $"Nombre: {Nombre}, Edad: {Edad}";
+            return "Nombre: " + Nombre + " Edad: " + Edad;
         }
     }
 }
