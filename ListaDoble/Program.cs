@@ -60,11 +60,13 @@ namespace ListaDoble
                 Console.Write("Opcion: ");
 
                 opcion = int.Parse(Console.ReadLine());
+                Console.Clear();
 
                 switch (opcion)
                 {
                     case 1:
                         d1.Domesticar();
+                        Console.Clear();
                         break;
 
                     case 2:
@@ -75,6 +77,7 @@ namespace ListaDoble
                     case 3:
                         Console.Write("Edad minima: ");
                         int edad = int.Parse(Console.ReadLine());
+                        Console.Clear();
                         Console.WriteLine("\n--- RESULTADO ---");
                         d1.MayoresA(edad);
                         break;
@@ -93,6 +96,7 @@ namespace ListaDoble
 
                         Console.WriteLine("\n--- MEZCLANDO (solo edades pares) ---");
                         d1.MezclaParesInicio(d2);
+                        Console.Clear();
                         break;
 
                     case 9:
