@@ -80,6 +80,7 @@ namespace ListaDoble
                         Console.Clear();
                         Console.WriteLine("\n--- RESULTADO ---");
                         d1.MayoresA(edad);
+
                         break;
 
                     case 4:
@@ -112,6 +113,31 @@ namespace ListaDoble
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
